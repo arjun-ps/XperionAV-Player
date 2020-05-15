@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCAB1ED3246BF23800F538EE /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB1ED2246BF23800F538EE /* MoviesTableViewCell.swift */; };
 		DCBBC0B7246BD45800215FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC0B6246BD45800215FD8 /* AppDelegate.swift */; };
 		DCBBC0B9246BD45800215FD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC0B8246BD45800215FD8 /* SceneDelegate.swift */; };
 		DCBBC0BB246BD45800215FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC0BA246BD45800215FD8 /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		DCBBC0C1246BD45800215FD8 /* XperionAV_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC0BF246BD45800215FD8 /* XperionAV_Player.xcdatamodeld */; };
 		DCBBC0C3246BD45B00215FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBBC0C2246BD45B00215FD8 /* Assets.xcassets */; };
 		DCBBC0C6246BD45B00215FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBBC0C4246BD45B00215FD8 /* LaunchScreen.storyboard */; };
+		DCEB342F246EA98200F48FEB /* Pods_XperionAV_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A40B7C9838580D12B45D61 /* Pods_XperionAV_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CD4DC84CDE0772234CCBE72 /* Pods-XperionAV Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XperionAV Player.debug.xcconfig"; path = "Target Support Files/Pods-XperionAV Player/Pods-XperionAV Player.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A40B7C9838580D12B45D61 /* Pods_XperionAV_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XperionAV_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB1ED2246BF23800F538EE /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		DCBBC0B3246BD45800215FD8 /* XperionAV Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XperionAV Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBBC0B6246BD45800215FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCBBC0B8246BD45800215FD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		DCBBC0C2246BD45B00215FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBBC0C5246BD45B00215FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBBC0C7246BD45B00215FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECD892A2E8E726A24EF9B27 /* Pods-XperionAV Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XperionAV Player.release.xcconfig"; path = "Target Support Files/Pods-XperionAV Player/Pods-XperionAV Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEB342F246EA98200F48FEB /* Pods_XperionAV_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3897782BCB0E7CE50615C21B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4DC84CDE0772234CCBE72 /* Pods-XperionAV Player.debug.xcconfig */,
+				DECD892A2E8E726A24EF9B27 /* Pods-XperionAV Player.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BD5CFB50343D66AA1E3A0BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3A40B7C9838580D12B45D61 /* Pods_XperionAV_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCBBC0AA246BD45800215FD8 = {
 			isa = PBXGroup;
 			children = (
 				DCBBC0B5246BD45800215FD8 /* XperionAV Player */,
 				DCBBC0B4246BD45800215FD8 /* Products */,
+				3897782BCB0E7CE50615C21B /* Pods */,
+				5BD5CFB50343D66AA1E3A0BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +92,7 @@
 				DCBBC0C4246BD45B00215FD8 /* LaunchScreen.storyboard */,
 				DCBBC0C7246BD45B00215FD8 /* Info.plist */,
 				DCBBC0BF246BD45800215FD8 /* XperionAV_Player.xcdatamodeld */,
+				DCAB1ED2246BF23800F538EE /* MoviesTableViewCell.swift */,
 			);
 			path = "XperionAV Player";
 			sourceTree = "<group>";
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCBBC0CA246BD45B00215FD8 /* Build configuration list for PBXNativeTarget "XperionAV Player" */;
 			buildPhases = (
+				A584B8C00CEAC116A4D762C6 /* [CP] Check Pods Manifest.lock */,
 				DCBBC0AF246BD45800215FD8 /* Sources */,
 				DCBBC0B0246BD45800215FD8 /* Frameworks */,
 				DCBBC0B1246BD45800215FD8 /* Resources */,
+				BCC0961BF51B1CFD3DB03B4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +165,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A584B8C00CEAC116A4D762C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XperionAV Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC0961BF51B1CFD3DB03B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XperionAV Player/Pods-XperionAV Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XperionAV Player/Pods-XperionAV Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XperionAV Player/Pods-XperionAV Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCBBC0AF246BD45800215FD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,6 +214,7 @@
 			files = (
 				DCBBC0BB246BD45800215FD8 /* ViewController.swift in Sources */,
 				DCBBC0C1246BD45800215FD8 /* XperionAV_Player.xcdatamodeld in Sources */,
+				DCAB1ED3246BF23800F538EE /* MoviesTableViewCell.swift in Sources */,
 				DCBBC0B7246BD45800215FD8 /* AppDelegate.swift in Sources */,
 				DCBBC0B9246BD45800215FD8 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +358,7 @@
 		};
 		DCBBC0CB246BD45B00215FD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD4DC84CDE0772234CCBE72 /* Pods-XperionAV Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,12 +371,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.readyongo.arjun.XperionAV-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DCBBC0CC246BD45B00215FD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECD892A2E8E726A24EF9B27 /* Pods-XperionAV Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.readyongo.arjun.XperionAV-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
