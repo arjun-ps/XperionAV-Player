@@ -1,0 +1,6 @@
+framework module Pods_XperionAV_Player {
+  umbrella header "Pods-XperionAV Player-umbrella.h"
+
+  export *
+  module * { export * }
+}
